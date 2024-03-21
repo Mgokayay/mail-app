@@ -8,7 +8,7 @@ import org.springframework.http.HttpStatus;
 
 import java.util.Map;
 @Data
-@Entity
+
 @SuperBuilder
 @JsonInclude(JsonInclude.Include.NON_DEFAULT)
 public class HttpResponse {
