@@ -16,7 +16,7 @@ import java.util.UUID;
 @Entity
 @Data
 @NoArgsConstructor
-@Table(name = "confirmations",schema = "")
+@Table(name = "confirmations",schema = "mail")
 public class Confirmation {
 
     @Id
